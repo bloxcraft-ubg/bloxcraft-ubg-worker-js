@@ -29,7 +29,6 @@ export default {
     resHeaders.delete("permissions-policy");
     resHeaders.set("access-control-allow-origin", "*");
 
-  // Cookies For Bloxcraft UBG
     const setCookies = response.headers.get("set-cookie");
     if (setCookies) {
       resHeaders.set("set-cookie", setCookies);
