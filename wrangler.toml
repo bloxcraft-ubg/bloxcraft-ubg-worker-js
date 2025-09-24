@@ -1,0 +1,4 @@
+name = "bloxcraft-ubg"
+main = "worker.js"
+compatibility_date = "2025-09-24"
+type = "javascript"
